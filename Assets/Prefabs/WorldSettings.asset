@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b73a098c40b1d49b3842ded57d4c0f, type: 3}
+  m_Name: WorldSettings
+  m_EditorClassIdentifier: 
+  sceneZonesPrefab: {fileID: 5878507945962439376, guid: 1a211f060b594f842830ea8a97b65df8, type: 3}
+  maxVariables: 15
+  maxUsers: 2000
+  maxSpectators: 0
+  AreaofInterest: {x: 25.1, y: 25.1, z: 25.1}
+  unverifiedUsersAllowed: 1
+  lowestSettings: {fileID: 0}
+  defaultSettings: {fileID: 0}
+  mediumSettings: {fileID: 0}
+  highestSettings: {fileID: 0}
+  ScoreUpdateHostFormat: '{0}/users/score/update.php?uuid={2}'
+  InteractionsHistoryPathFormat: '{0}/interactions/create.php?uuid={2}'

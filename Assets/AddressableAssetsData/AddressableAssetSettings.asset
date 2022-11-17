@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: 0cb12a4a23a54d040ac4f7bb6c9917fa
+  m_CachedHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -58,9 +61,9 @@ MonoBehaviour:
       - m_Id: fb689e7fa2c6fce4b8f4febb7da6804f
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: bc71f710b4a78464882d03bc7c043e3b
-        m_Value: ServerData/[BuildTarget]
+        m_Value: ServerData/CloudFront/addressables/[UnityEngine.Application.unityVersion]/[UnityEngine.Application.productName]/[BuildTarget]
       - m_Id: da36bdbe1a8cea44b91ab223d395eac7
-        m_Value: https://YOURDOMAINHERE/PATH/TO/ADDRESSABLES/[BuildTarget]
+        m_Value: https://cdn.holofair.net/addressables/[UnityEngine.Application.unityVersion]/[UnityEngine.Application.productName]/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 215772a37cf4b1b43ade4595562924a6
       m_Name: BuildTarget

@@ -16,7 +16,11 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 0cb12a4a23a54d040ac4f7bb6c9917fa
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: c51a591666bd8db4ab189a5338ce11d4
+    m_Address: Assets/Lobby.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d00becaeafae8a343b3a317a871d1a01, type: 2}
   m_SchemaSet:
